@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header > h1{
+    font-size: 8vw;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > p > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+header > p > a:hover{
+    text-decoration: underline;
+}
+
+main > div > pre{
+    font-family: "Sriracha", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.fundo-branco{
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+
+}
+
+.fundo-img{
+    background-color: aquamarine;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 30px 0px 30px 50px;
+}
+
+.fundo-img > pre{
+    background-color: #0000007e;
+    padding: 5px;
+    width: 200px;
+}
+
+#img1{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+}
+
+#img2{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+footer > p > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+}
