@@ -129,6 +129,7 @@ main > p > a{
 iframe{
     position: relative;
     width: 60vw;
+    max-width: 650px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, 0%);
