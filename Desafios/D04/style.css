@@ -34,11 +34,12 @@ body{
 
 #fundo-cell > #iframe{
     position: absolute;
-    width: 230px;
-    height: 410px;
+    width: 220px;
+    height: 400px;
+    border-radius: 5px;
     top: 16%;
     left: 50%;
-    transform: translate(-52%, 0%);
+    transform: translate(-51%, 0%);
     overflow: hidden;
 }
 
