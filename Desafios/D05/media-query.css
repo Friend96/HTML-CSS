@@ -1,0 +1,67 @@
+
+@media print{
+    body{
+        background-image: url(imagens/back-print.jpg);
+    }
+
+    h1{
+        color: black;
+        text-shadow: none;
+    }
+
+    #principal{
+        border: 2px solid black;
+    }
+    #phone{ display: none; }
+    #tablet{ display: none; }
+    #pc{ display: none ;}
+    #tv{ display: none ;}
+    #print{ display: block; }    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: url(imagens/back-tablet.jpg);
+    }
+
+    #principal{
+        width: 450px;
+    }
+    #phone{ display: none; }
+    #tablet{ display: block; }
+    #pc{ display: none ;}
+    #tv{ display: none ;}
+    #print{ display: none; }    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1300px){
+    body{
+        background-image: url(imagens/back-pc.jpg);
+    }
+
+    #principal{
+        width: 550px;
+    }
+    #phone{ display: none; }
+    #tablet{ display: none; }
+    #pc{ display: block ;}
+    #tv{ display: none ;}
+    #print{ display: none; }
+}
+
+
+@media screen and (min-width: 1300px){
+    body{
+        background-image: url(imagens/back-tv.jpg);
+    }
+
+    #principal{
+        width: 800px;
+    }
+    #phone{ display: none; }
+    #tablet{ display: none; }
+    #pc{ display: none ;}
+    #tv{ display: block ;}
+    #print{ display: none; }
+}
