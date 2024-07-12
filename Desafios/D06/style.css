@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(fundo-frutiger\ aero.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    background-color: #0000be;
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#icone{
+    text-align: center;
+    width: 100vw;
+    color: white;
+    background-color: #000027;
+    padding: 10px 0px 10px 0px;
+}
+
+#icone:hover{
+    color: black;
+    background-color: #000079;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul > li{
+    text-align: center;
+    background-color: #00003f;
+    border-top: 1px solid #0000ff86;
+    padding: 10px;
+}
+
+ul > li:hover{
+    background-color: #000061;
+}
+
+ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    background-color: #ffffffd2;
+    width: 90vw;
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+main > p{
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (min-width:450px){
+    #icone{
+        display: none;
+    }
+    
+    ul > li{
+        display: inline-block;
+    }
+}
