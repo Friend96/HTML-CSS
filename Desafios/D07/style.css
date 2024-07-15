@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #691fad;
+}
+
+#fundo{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+menu{
+    background-color: white;
+    width: 285px;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#div-img{
+    width: 285px;
+    height: 250px;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url(metal.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom left;
+}
+
+#div-formulario{
+    padding: 10px;
+}
+
+#div-formulario > h1{
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
+
+#input1{
+    background-color: #691fad;
+    margin: 5px 0px 5px 0px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#input1 > div{
+    width: 40px;
+    color: white;
+    display: inline-block;
+}
+
+#input1 > input{
+    width: 200px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.4em;
+    padding: 5px;
+    transform: translate(0%, -4%);
+}
+
+#icon-person{
+    font-weight: bold;
+    transform: translate(40%, 20%);
+}
+
+#input2{
+    background-color: #691fad;
+    margin: 5px 0px 5px 0px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#input2 > div{
+    width: 40px;
+    color: white;
+    display: inline-block;
+}
+
+#input2 > input{
+    width: 200px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.4em;
+    padding: 5px;
+    transform: translate(0%, -4%);
+}
+
+#icon-key{
+    font-weight: bold;
+    transform: translate(40%, 20%);
+}
+
+#entrar{
+    width: 265px;
+    height: 30px;
+    margin: 0px 0px 5px 0px;
+    font-weight: bold;
+    background-color: #009b79;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#entrar:hover{
+    background-color: #006e56;
+}
+
+#div-esqueci{
+    border: 2px solid #009b79;
+    border-radius: 5px;
+}
+
+#div-esqueci:hover{
+    background-color: #006e5683;
+}
+
+#div-esqueci > div{
+    width: 180px;
+    margin: auto;
+    transform: translate(0%, -20%);
+}
+
+#div-esqueci > div > a{
+    color: #006e56;
+    text-decoration: none;
+}
+
+#icon-mail{
+    transform: translate(0%, 30%);
+    color: #006e56;
+}
