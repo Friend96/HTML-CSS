@@ -43,6 +43,7 @@ ul > li{
     background-color: #00003f;
     border-top: 1px solid #0000ff86;
     padding: 10px;
+    border-radius: 5px;
 }
 
 ul > li:hover{
