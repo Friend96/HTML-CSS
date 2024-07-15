@@ -12,13 +12,14 @@ body{
 }
 
 header{
-    background-color: #0000be;
+    background-color: #268bd8dc;
 }
 
 header > h1{
     color: white;
     text-align: center;
     padding: 20px;
+    text-shadow: 0px 0px 2px #ffffff8a;
 }
 
 #icone{
@@ -40,32 +41,39 @@ ul{
 
 ul > li{
     text-align: center;
-    background-color: #00003f;
+    background-color: #ffffff;
     border-top: 1px solid #0000ff86;
     padding: 10px;
     border-radius: 5px;
 }
 
 ul > li:hover{
-    background-color: #000061;
+    background-color: #D3E7F7;
+    border: none;
 }
 
 ul > li > a{
-    color: white;
+    color: #1E6FAD;
     text-decoration: none;
+    font-weight: bold;
 }
 
 main{
-    background-color: #ffffffd2;
+    background-color: #a7d0f0ef;
     width: 90vw;
-    max-width: 500px;
+    max-width: 700px;
     padding: 10px;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
+}
+
+main > h1{
+    color: #103f63;
 }
 
 main > p{
+    color: #0e3757;
     text-align: justify;
     text-indent: 30px;
     margin-top: 20px;
