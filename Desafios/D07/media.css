@@ -1,0 +1,47 @@
+@media screen and (min-width:600px) and (max-width:900px){
+    body{
+        background-image: linear-gradient(to top, #009b79, #691fad);
+    }
+    menu{
+        width: 90vw;
+    }
+
+    menu > #div-img{
+        float: left;
+        width: 30vw;
+        height: 310px;
+    }
+
+    menu > #div-formulario{
+        float: right;
+        width: 55vw;
+        
+    }
+
+    #entrar{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:900px){
+    body{
+        background-image: linear-gradient(to top, #009b79, #691fad);
+    }
+
+    menu{
+        max-width: 800px;
+        min-width: 80vw;
+    }
+
+    menu > #div-img{
+        float: right;
+        width: 30vw;
+        height: 310px;
+    }
+
+    menu > #div-formulario{
+        float: left;
+        width: 45vw;
+        
+    }
+}

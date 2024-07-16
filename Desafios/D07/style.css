@@ -18,6 +18,7 @@ menu{
     background-color: white;
     width: 285px;
     border-radius: 15px;
+    overflow: hidden;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -27,7 +28,7 @@ menu{
 #div-img{
     width: 285px;
     height: 250px;
-    border-radius: 15px 15px 0px 0px;
+    display: block;
     background-image: url(metal.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -36,10 +37,15 @@ menu{
 
 #div-formulario{
     padding: 10px;
+    display: block;
 }
 
 #div-formulario > h1{
     text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+#div-formulario > p{
     margin: 0px 0px 10px 0px;
 }
 
@@ -57,8 +63,9 @@ menu{
 }
 
 #input1 > input{
-    width: 200px;
+    width: 78%;
     height: 20px;
+    background-color: #74e7ce;
     border: none;
     border-radius: 5px;
     outline: none;
@@ -86,8 +93,9 @@ menu{
 }
 
 #input2 > input{
-    width: 200px;
+    width: 78%;
     height: 20px;
+    background-color: #74e7ce;
     border: none;
     border-radius: 5px;
     outline: none;
@@ -102,8 +110,8 @@ menu{
 }
 
 #entrar{
-    width: 265px;
-    height: 30px;
+    width: 100%;
+    height: 35px;
     margin: 0px 0px 5px 0px;
     font-weight: bold;
     background-color: #009b79;
@@ -118,6 +126,7 @@ menu{
 
 #div-esqueci{
     border: 2px solid #009b79;
+    height: 35px;
     border-radius: 5px;
 }
 
@@ -128,7 +137,7 @@ menu{
 #div-esqueci > div{
     width: 180px;
     margin: auto;
-    transform: translate(0%, -20%);
+    transform: translate(0%, -5%);
 }
 
 #div-esqueci > div > a{
